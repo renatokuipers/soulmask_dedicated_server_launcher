@@ -36,11 +36,13 @@ This repository contains files necessary to set up and configure the Soulmask De
    C:\steamcmd\steamapps\common\Soulmask Dedicated Server For Windows
    ```
    If the server is not found in this location, the GUI will prompt you to install the server.
+   (When you click on "Install Server" it will seem as if nothing is happening, but the full server will be downloaded through SteamCMD. This can take about 1-3 minutes depending on your internet speed, so please have patience.)
+   Once done, the Launcher will tell you that the server is installed correctly.
 
-5. **Install the Server:**
+6. **Install the Server:**
    If the server is not installed, click the "Install Server" button in the GUI. This will install the server in the default location mentioned above.
 
-6. **Configure the Server:**
+7. **Configure the Server:**
    The GUI allows you to edit and save the configuration files (`Engine.ini` and `config.json`). Note that as of now, the launcher GUI only supports editing and saving configuration files. The ability to run or stop the server is not yet implemented.
    As of right now, you can just edit the StartServer.bat file and start the server that way. (See https://soulmask.fandom.com/wiki/Private_Server for the current possible .bat implementation)
 
