@@ -27,8 +27,20 @@ This repository contains files necessary to set up and configure the Soulmask De
    - translations.py
 ```
 
-4. **Execute the Launcher:**
+You can run the dedicated server launcher in 2 ways:
+
+4.1 **Execute the Launcher with the .exe file:**
 Double-click the `soulmask_dedicated_launcher.exe` file to run the launcher. A GUI will appear on your screen.
+
+4.2 **Execute the launcher with the .py file:**
+Make sure you have Python 3.10 or higher installed.
+Then in Studio Code or Pycharm or just in a Terminal/CMD window go to the directory where all the downloaded files are.
+Then run the command:
+```
+python soulmask_dedicated_launcher.py
+```
+and press enter.
+
 
 5. **Check for Dedicated Server Installation:**
 The GUI will automatically check if the Soulmask Dedicated Server is installed at the following location:
